@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(252, 175, 232);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+     color: rgb(218, 255, 194);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cuadro-precio {
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.cuadro-precio:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.cuadro-precio p {
+    margin-bottom: 0.5rem;
+}
+
+.cuadro-precio button {
+    margin-top: 1rem;
+    width: 100%;
+}
